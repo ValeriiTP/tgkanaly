@@ -1,4 +1,120 @@
- <div class="container" id="ekonomika">
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Газета тижня</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .news {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .news-item {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            width: calc(33.333% - 30px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .news-item h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .news-item p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Газета тижня</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#politika">мєми</a></li>
+            <li><a href="#ekonomika">тг канали</a></li>
+            <li><a href="#sport">цікавинки</a></li>
+        </ul>
+    </nav>
+
+<div class="container" id="ekonomika">
         <h2 class="section-title">тг канали</h2>
         <div class="news">
             <div class="news-item">
@@ -18,3 +134,8 @@
             </div>
         </div>
     </div>
+ <footer>
+        <p>&copy; 2024 Газета коханця. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
